@@ -1,7 +1,40 @@
+/* STYLE CSS */
+
+
+/* LOGO AND NAVIGATION BAR */
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+    letter-spacing: 3px;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu,
+#logo {
+    line-height: 8vh;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px
+}
+
+/* THREE BOXES */
 .canvas {
     width: 100%;
     height: auto;
-    background-color: #4d0f00;
+    background-color: #fff;
     /* overflow: hidden; */
 }
 
