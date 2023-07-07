@@ -34,7 +34,6 @@ p {
     font-size: 200%;
     margin-left: 30px;
     letter-spacing: 3px;
-
 }
 
 /* navigation links */
@@ -43,6 +42,7 @@ p {
     font-size: 110%;
     letter-spacing: 2px;
     height: 7vh;
+    
 }
 
 #menu,
@@ -80,7 +80,7 @@ p {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #f2f2f2;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
   }
   
   #section1 {
@@ -88,7 +88,7 @@ p {
   }
   
   #section2 {
-    /* background-color: #fff; */
+    background-color: #fff;
   }
   
   #section3 {
@@ -100,7 +100,7 @@ p {
   }
 
 #club-details div {
-    color: #fafafa;
+    color: #000;
     width: 50%;
     float: left;
     padding: 3% 0 3% 0;
@@ -112,19 +112,19 @@ p {
 }
 
 .details-box {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgb(250, 245, 245);
 }
 
 .activities {
-    background-color: rgba(71, 117, 78);
+    background-color: #ccc;
 }
 
 .online {
-    background-color: rgba(71, 117, 78); 
+    background-color: #ccc; 
 }
 
 .resources {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgb(250, 245, 245);
 }
 
 /* Portfolio Page */
