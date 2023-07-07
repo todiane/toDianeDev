@@ -3,15 +3,30 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
+
 h1 {
     font-size: 200%;
 }
+h2 {
+    font-size: 24px;
+    line-height: 1.5em;
+}
 p {
     font-size: 18px;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
+
+/* website frame */
+.frame {
+    border: 5px solid rgb(250, 245, 245);
+    width: 75%;
+    padding: 2rem;
+    margin: 20px auto;
+  }
+
+  
 /* LOGO AND NAVIGATION BAR */
 
 #logo {
@@ -41,18 +56,11 @@ p {
     margin-right: 30px
 }
 
-
-/* Image and Text Boxes */
-
 /* Top image and text box */
-
-/* Flex container */
 .containerTop {
     display: flex;
     align-items: center;
-    justify-content: center; */
-    height: 70vh;
-   
+    justify-content: center; 
   }
   
   /* Image column */
@@ -64,7 +72,6 @@ p {
   /* Text column */
   .text-column {
     flex: 1;
-    /* padding: 20px; */
   }
   
   /* Example styles for image */
@@ -73,35 +80,6 @@ p {
     height: auto;
   }
 
-/* one BOX */ 
-
-/* .canvas {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    overflow: hidden;
- } */
-
-.frame {
-  border: 5px solid rgb(250, 245, 245);
-  width: 75%;
-  padding: 2rem;
-  margin: 20px auto;
-}
-
-.one {
-  width: 90%;
-  /* height: 30%; */
-  background-color: #efb762;
-  margin: 20px auto;
-  display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 10px;
-}
 /* Section container */
 .container {
     width: 90%;
@@ -116,7 +94,6 @@ p {
     border: 1px solid #ccc;
   }
   
-  /* Example section-specific styles */
   #section1 {
     background-color: #e6f7ff;
   }
@@ -132,21 +109,6 @@ p {
   #section4 {
     background-color: #e6ffe6;
   }
-
-/* .two {
-  width: 91%;
-  height: 30%;
-  background-color: #8f0401;
-  margin: 0 auto 20px;
-  display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 10px;
-} */
-
 
 #club-details div {
     color: #fafafa;
