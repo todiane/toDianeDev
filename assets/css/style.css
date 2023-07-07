@@ -42,6 +42,7 @@ p {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    height: 7vh;
 }
 
 #menu,
@@ -57,29 +58,17 @@ p {
 }
 
 /* Top image and text box */
-.containerTop {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+.img-dc {
+   float: left;
+    margin: 0;
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
-  
-  /* Image column */
-  .image-column {
-    flex: 1;
-    padding: 7vh;
-  }
-  
-  /* Text column */
-  .text-column {
-    flex: 1;
-  }
-  
-  /* Example styles for image */
-  .image-column img {
-    max-width: 70%;
-    height: auto;
-  }
-
 /* Section container */
 .container {
     width: 90%;
@@ -95,7 +84,7 @@ p {
   }
   
   #section1 {
-    background-color: #e6f7ff;
+    background-color: rgb(250, 245, 245);
   }
   
   #section2 {
