@@ -128,6 +128,23 @@ p {
     background-color: rgb(250, 245, 245);
 }
 
+/* Two External Videos */
+
+#external {
+    display: flex;
+    clear: both;
+    justify-content: center;
+
+}
+
+.video {
+    display: grid;
+    padding: 2vh;
+}
+.video2 p {
+    line-height: 1.5em;
+}
+
 /* Portfolio Page */
 
 .gallery {
