@@ -48,7 +48,7 @@ p {
 #menu,
 #logo {
     line-height: 2vh;
-
+    text-transform: uppercase;
 }
 
 #menu li {
@@ -88,7 +88,7 @@ p {
   }
   
   #section2 {
-    background-color: #f9e6ff;
+    /* background-color: #fff; */
   }
   
   #section3 {
@@ -125,6 +125,33 @@ p {
 
 .resources {
     background-color: rgba(0, 0, 0, .6);
+}
+
+/* Portfolio Page */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
 }
 
 /* social networks footer */
