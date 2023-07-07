@@ -41,7 +41,7 @@
     align-items: center;
     /* justify-content: center; */
     /* height: 70vh; */
-    margin: 15vh auto 2vh;
+    /* margin: 15vh auto 2vh; */
   }
   
   /* Image column */
@@ -58,20 +58,21 @@
   
   /* Example styles for image */
   .image-column img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
   }
 
-/* one BOX */
-.canvas {
+/* one BOX */ 
+
+/* .canvas {
     width: 100%;
     height: auto;
     background-color: #fff;
-    /* overflow: hidden; */
-}
+    overflow: hidden;
+ } */
 
 .frame {
-  border: 5px solid black;
+  border: 5px solid rgb(250, 245, 245);
   width: 75%;
   padding: 2rem;
   margin: 20px auto;
