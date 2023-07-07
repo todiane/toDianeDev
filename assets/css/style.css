@@ -117,11 +117,11 @@ p {
 }
 
 .activities {
-    background-color: #ccc;
+    background-color: rgb(248, 249, 250);
 }
 
 .online {
-    background-color: #ccc; 
+    background-color: rgb(248, 249, 250); 
 }
 
 .resources {
