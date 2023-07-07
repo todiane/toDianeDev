@@ -33,9 +33,36 @@
 
 /* Image and Text Boxes */
 
+/* Top image and text box */
 
+/* Flex container */
+.containerTop {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 70vh; */
+    margin: 15vh auto 2vh;
+  }
+  
+  /* Image column */
+  .image-column {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  /* Text column */
+  .text-column {
+    flex: 1;
+    /* padding: 20px; */
+  }
+  
+  /* Example styles for image */
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+  }
 
-/* THREE BOXES */
+/* one BOX */
 .canvas {
     width: 100%;
     height: auto;
@@ -51,8 +78,8 @@
 }
 
 .one {
-  width: 91%;
-  height: 30%;
+  width: 90%;
+  /* height: 30%; */
   background-color: #efb762;
   margin: 20px auto;
   display: flex;
@@ -63,8 +90,38 @@
     gap: 16px;
     padding: 20px 10px;
 }
+/* Section container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  /* Example section-specific styles */
+  #section1 {
+    background-color: #e6f7ff;
+  }
+  
+  #section2 {
+    background-color: #f9e6ff;
+  }
+  
+  #section3 {
+    background-color: #ffffe6;
+  }
+  
+  #section4 {
+    background-color: #e6ffe6;
+  }
 
-.two {
+/* .two {
   width: 91%;
   height: 30%;
   background-color: #8f0401;
@@ -76,21 +133,9 @@
     align-items: center;
     gap: 16px;
     padding: 20px 10px;
-}
+} */
 
-.three {
-  width: 91%;
-  height: 28%;
-  background-color: #b20403;
-  margin: auto;
-  display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 10px;
-}
+
 #club-details div {
     color: #fafafa;
     width: 50%;
@@ -135,33 +180,4 @@
     padding: 5%;
     color: #3a3a3a;
 }
- /* Section container */
- .container {
-    width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* Section styles */
-  .section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-  }
-  
-  /* Example section-specific styles */
-  #section1 {
-    background-color: #e6f7ff;
-  }
-  
-  #section2 {
-    background-color: #f9e6ff;
-  }
-  
-  #section3 {
-    background-color: #ffffe6;
-  }
-  
-  #section4 {
-    background-color: #e6ffe6;
-  }
+ 
