@@ -57,18 +57,8 @@ p {
     margin-right: 30px
 }
 
-/* Top image and text box */
-.img-dc {
-   float: left;
-    margin: 0;
-    height: 5vh;
-    width: 5vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+/* Top image and text box use the #external and .video settings */
+  
 /* Section container */
 .container {
     width: 90%;
@@ -128,7 +118,7 @@ p {
     background-color: rgb(250, 245, 245);
 }
 
-/* Two External Videos */
+/* External Video Plus Text */
 
 #external {
     display: flex;
@@ -141,7 +131,7 @@ p {
     display: grid;
     padding: 2vh;
 }
-.video2 p {
+.video p {
     line-height: 1.5em;
 }
 
@@ -189,3 +179,174 @@ p {
     color: #3a3a3a;
 }
  
+/* Media queries */
+
+/* For large to medium screens sizes from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* For medium screens sizes from 1175px wide and down */
+/* @media screen and (max-width: 1175px) {
+
+    #menu,
+    #logo {
+        line-height: 7vh;
+    }
+
+    #home-details div {
+        width: 100%;
+        clear: both;
+        line-height: 0; */
+
+    /* #external {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    } */
+
+    /* .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    } */
+
+    /* #photos {
+        column-count: 3;
+    }
+
+} */
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #logo {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    #logo {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    #menu,
+    #logo {
+        line-height: 8vh;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    h1,
+    h2 {
+        font-size: 110%;
+    }
+
+    #menu {
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+    }
+
+
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ceremony {
+        font-size: 4vw;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+}
+
+
+/* For small screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    #logo {
+        font-size: 5.7vh;
+        padding: 1vw;
+
+    }
+
+    #menu,
+    #logo {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    #menu {
+        font-size: 5vw;
+        letter-spacing: 0.2vw;
+    }
+
+    #external {
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #external h2 {
+        margin-top: 3vh;
+    }
+
+}
