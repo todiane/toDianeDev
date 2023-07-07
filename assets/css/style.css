@@ -155,12 +155,23 @@ p {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    
+}
+
+/* .gal-img {
+    transition: transform 0.25s ease;
+} */
+.gal-img:hover {
+    -webkit-transform:scale(2.5); /* or some other value */
+    transform:scale(2.5);
 }
 
 .gallery::after {
     content: "";
     width: 350px;
 }
+
+
 
 /* social networks footer */
 
