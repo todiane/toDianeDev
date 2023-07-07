@@ -1,6 +1,17 @@
 /* STYLE CSS */
 
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+h1 {
+    font-size: 200%;
+}
+p {
+    font-size: 18px;
+    line-height: 1.3em;
+}
 /* LOGO AND NAVIGATION BAR */
 
 #logo {
@@ -20,7 +31,7 @@
 
 #menu,
 #logo {
-    line-height: 8vh;
+    line-height: 2vh;
 
 }
 
@@ -39,15 +50,15 @@
 .containerTop {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* height: 70vh; */
-    /* margin: 15vh auto 2vh; */
+    justify-content: center; */
+    height: 70vh;
+   
   }
   
   /* Image column */
   .image-column {
     flex: 1;
-    padding: 40px;
+    padding: 7vh;
   }
   
   /* Text column */
