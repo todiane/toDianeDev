@@ -30,6 +30,11 @@
     margin-right: 30px
 }
 
+
+/* Image and Text Boxes */
+
+
+
 /* THREE BOXES */
 .canvas {
     width: 100%;
@@ -88,13 +93,14 @@
 }
 #club-details div {
     color: #fafafa;
-    width: 20%;
+    width: 45%;
     float: left;
     padding: 3% 0 3% 0;
     text-align: center;
     border: 1vh solid #ffffff;
     box-sizing: border-box;
-    line-height: 5vh;
+    line-height: 2vh;
+    flex-wrap: wrap;
 }
 
 .details-box {
@@ -111,28 +117,6 @@
 
 .resources {
     background-color: rgba(71, 117, 78);
-}
-
-.start {
-    background-color: rgba(0, 0, 0, .6);
-}
-
-#club-details h2 {
-    color: #fafafa;
-}
-
-/* Two External Videos */
-
-#external {
-    display: flex;
-    clear: both;
-    justify-content: center;
-
-}
-
-.video {
-    display: grid;
-    padding: 2vh;
 }
 
 /* social networks footer */
