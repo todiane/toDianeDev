@@ -93,7 +93,7 @@
 }
 #club-details div {
     color: #fafafa;
-    width: 45%;
+    width: 50%;
     float: left;
     padding: 3% 0 3% 0;
     text-align: center;
@@ -112,11 +112,11 @@
 }
 
 .online {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(71, 117, 78); 
 }
 
 .resources {
-    background-color: rgba(71, 117, 78);
+    background-color: rgba(0, 0, 0, .6);
 }
 
 /* social networks footer */
@@ -135,3 +135,33 @@
     padding: 5%;
     color: #3a3a3a;
 }
+ /* Section container */
+ .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  /* Example section-specific styles */
+  #section1 {
+    background-color: #e6f7ff;
+  }
+  
+  #section2 {
+    background-color: #f9e6ff;
+  }
+  
+  #section3 {
+    background-color: #ffffe6;
+  }
+  
+  #section4 {
+    background-color: #e6ffe6;
+  }
