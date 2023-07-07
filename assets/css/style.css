@@ -86,3 +86,68 @@
     gap: 16px;
     padding: 20px 10px;
 }
+#club-details div {
+    color: #fafafa;
+    width: 20%;
+    float: left;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    border: 1vh solid #ffffff;
+    box-sizing: border-box;
+    line-height: 5vh;
+}
+
+.details-box {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.activities {
+    background-color: rgba(71, 117, 78);
+}
+
+.online {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.resources {
+    background-color: rgba(71, 117, 78);
+}
+
+.start {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#club-details h2 {
+    color: #fafafa;
+}
+
+/* Two External Videos */
+
+#external {
+    display: flex;
+    clear: both;
+    justify-content: center;
+
+}
+
+.video {
+    display: grid;
+    padding: 2vh;
+}
+
+/* social networks footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
