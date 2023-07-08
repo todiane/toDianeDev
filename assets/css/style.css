@@ -40,19 +40,33 @@ p {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    height: 7vh;
+    height: 4vh;
 }
 
 #menu,
 #logo {
-    line-height: 2vh;
+    line-height: 8vh;
     text-transform: uppercase;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 50px
+    margin-right: 30px
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #0000ff;
+    color: blue
+}
+
+.active {
+    border-bottom: 1px solid #0000ff;
 }
 
 /* Top image and text box use the #external and .video settings */
