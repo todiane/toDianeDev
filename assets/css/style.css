@@ -13,6 +13,12 @@ h2 {
     font-size: 137%;
     line-height: 1.5em;
 }
+
+h3 {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 2.5em;
+}
 p {
     font-size: 1.1250em;
     line-height: 1.5em;
@@ -189,9 +195,6 @@ p {
     width: 350px;
 }
 
-.port-title h1 {
-    align-content: center;
-}
 
 
 /* social networks footer */
