@@ -210,7 +210,7 @@ p {
     color: #3a3a3a;
 }
  
-/* Media queries */
+/* MEDIA QUERIES */
 
 /* For large to medium screens sizes from 1300px wide and down */
 @media screen and (max-width: 1300px) {
