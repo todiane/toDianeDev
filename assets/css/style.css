@@ -67,7 +67,7 @@ p {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.2fr 1fr;
     padding: 20px;
     
   }
@@ -157,6 +157,8 @@ p {
 .video {
     display: grid;
     padding: 2vh;
+    justify-content: center;
+
 }
 .video p {
     line-height: 1.5em;
@@ -350,19 +352,19 @@ p {
 @media screen and (max-width: 500px) {
 
     #logo {
-        font-size: 5.7vh;
-        padding: 1vw;
+        font-size: 90%;
+        /* padding: 1vw; */
 
     }
 
     #menu,
     #logo {
         text-align: center;
-        margin-bottom: 2vh;
+        /* margin-bottom: 2vh; */
     }
 
     #menu {
-        font-size: 5vw;
+        font-size: 80%;
         letter-spacing: 0.2vw;
     }
 
@@ -396,4 +398,17 @@ p {
         margin-top: 3vh;
     }
 
+    #intro {
+        width: 90%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+       
+        
+      }
+    
+      .grid-item {
+        display: flex;
+        align-items: center;
+       
+      }
 }
