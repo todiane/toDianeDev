@@ -57,7 +57,30 @@ p {
 }
 
 /* Top image and text box use the #external and .video settings */
+#intro {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 20px;
+    
+  }
+
+  .grid-item {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+
+  }
   
+  /* Section styles */
+  .intro-text {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* border: 1px solid #ccc; */
+  }
 
 /* Section container */
 .container {
@@ -158,9 +181,6 @@ p {
     
 }
 
-/* .gal-img {
-    transition: transform 0.25s ease;
-} */
 .gal-img:hover {
     -webkit-transform:scale(2.5); /* or some other value */
     transform:scale(2.5);
