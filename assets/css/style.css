@@ -42,7 +42,6 @@ p {
     font-size: 110%;
     letter-spacing: 2px;
     height: 7vh;
-    
 }
 
 #menu,
@@ -59,6 +58,7 @@ p {
 
 /* Top image and text box use the #external and .video settings */
   
+
 /* Section container */
 .container {
     width: 90%;
@@ -79,7 +79,7 @@ p {
   }
   
   #section2 {
-    background-color: #fff;
+    background-color: rgb(250, 245, 245);
   }
   
   #section3 {
