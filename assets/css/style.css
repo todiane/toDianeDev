@@ -271,7 +271,7 @@ p {
  }
 
 /* For medium screens sizes from 1100px wide and down */ 
-/* 
+
 @media screen and (max-width: 1100px) {
 
  #menu,
@@ -311,7 +311,7 @@ p {
     } 
 
   
-} */
+} 
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
