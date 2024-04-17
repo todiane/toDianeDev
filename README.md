@@ -4,7 +4,6 @@
 
 This is a two-page website created to document my journey towards becoming a **Full Stack Developer** with Code Institute. I registered in the last week of April 2023 and began looking at the course material from the first week in May.
 
-The deployed website is here <https://todiane.github.io/toDianeDev/>
 
 I have experience with WordPress so I am a little familiar with html and CSS but have never used or tried to learn javascript, python and other languages. While I am not new to css I haven't really had to use it very much because WordPress templates come ready made and I have only had to make minor changes to a template. 
 
